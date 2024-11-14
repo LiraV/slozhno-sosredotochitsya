@@ -13,6 +13,8 @@
   --accent-color: #000028;
   --background-color: #000028;
   --highlight-color: #FF0070;
+  --title-color: #FF0070;
+  --header-color: #DB00FF;
   --text-size-m: 18px;
   --background-image: url(../images/cover-image-dark.png);
 }
@@ -22,6 +24,8 @@
   --accent-color: #000028;
   --background-color: #000028;
   --highlight-color: #FF0070;
+  --title-color: #FF0070;
+  --header-color: #DB00FF;
   --text-size-m: 18px;
   --background-image: url(../images/cover-image-dark.png);
 }
@@ -33,6 +37,8 @@
   --accent-color: #000028;
   --background-color: #000028;
   --highlight-color: #FF0070;
+  --title-color: #FF0070;
+  --header-color: #DB00FF;
   --text-size-m: 18px;
   --background-image: url(../images/cover-image-dark.png);
     }

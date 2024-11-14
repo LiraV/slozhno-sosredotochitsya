@@ -14,19 +14,19 @@
   display: grid;  
 }
 
-.head-decor {
+.theme_dark .head-decor {
   position: absolute;
   display: block;
   font-family: inherit;
 
 }
 
-.head-decor::before {
+.theme_dark .head-decor::before {
   content: "REC ";
-  color: var(--highlight-color);
+  color: var(--title-color);
 }
 
-.head-decor::after {
+.theme_dark .head-decor::after {
   content: '';
   display: inline-block;
   width: 9px;
@@ -40,8 +40,8 @@
   content: '';
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--highlight-color);
-  border-right: 1px solid var(--highlight-color);
+  border-top: 1px solid var(--title-color);
+  border-right: 1px solid var(--title-color);
   margin-left: auto;
   
 }
@@ -50,8 +50,8 @@
   content: '';
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--highlight-color);
-  border-left: 1px solid var(--highlight-color);
+  border-bottom: 1px solid var(--title-color);
+  border-left: 1px solid var(--title-color);
   margin-right: auto;
 }
 
@@ -61,19 +61,19 @@
   border: none;
   font-size: inherit;
   font-family: inherit;
-  color: var(--highlight-color);
+  color: var(--title-color);
   text-transform: lowercase;
   padding: 1.5px 13px;
 
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--highlight-color);
+  outline: 1px solid var(--title-color);
 }
 
 .title {
   text-transform: lowercase;
-  color: #DB00FF;
+  color: var(--header-color);
   text-shadow: 4px 4px 0 var(--highlight-color);
   grid-column-start: 1;
   grid-column-end: span 2;
@@ -100,7 +100,7 @@
 .text-content__item-title {
   font-size: inherit;
   font-family: inherit;
-  color: var(--highlight-color);
+  color: var(--title-color);
   line-height: 1.3;
 }
 
@@ -141,7 +141,7 @@
 
 .subtitle {
   text-transform: lowercase;
-  color: #DB00FF;
+  color: var(--header-color);
   text-shadow: 2px 2px 0 var(--highlight-color);
 }
 
@@ -153,10 +153,6 @@
     margin-bottom: 40px;
     padding-bottom: 10px;
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .decorated-zone {
-    
   }
 
   .decorated-zone::before {

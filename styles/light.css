@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --text-color: #000028;
+  --text-color: #353430;
   --accent-color: #353430;
   --background-color: #FFF1F7;
   --highlight-color: #FF8DCB;
@@ -17,28 +17,43 @@
   --header-color: #FFC2E6;
   --text-size-m: 18px;
   --background-image: url(../images//cover-image-light.png);
-}
-
-:root.theme-light {
-  --text-color: #000028;
-  --accent-color: #353430;
-  --background-color: #353430;
-  --highlight-color: #FF8DCB;
-  --title-color: #353430;
-  --header-color: #FFC2E6;
-  --text-size-m: 18px;
-  --background-image: url(../images//cover-image-light.png);
+  --hover: #FF007066;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --text-color: #000028;
-    --accent-color: #000028;
+    --text-color: #353430;
+    --accent-color: #353430;
     --background-color: #FFF1F7;
     --highlight-color: #FF8DCB;
     --title-color: #353430;
     --header-color: #FFC2E6;
-    --text-size-m: 18px; 
+    --text-size-m: 18px;
     --background-image: url(../images//cover-image-light.png);
+    --hover: #FF007066;
   }
+
+  .theme_auto .head-decor {
+    display:none;
+  }
+  
+  .theme_auto .head-decor::after {
+    display:none;
+  }
+  
+  .theme_auto .head-decor::before {
+    display:none;
+  }
+}
+
+.theme_light .head-decor {
+  display:none;
+}
+
+.theme_light .head-decor::after {
+  display:none;
+}
+
+.theme_light .head-decor::before {
+  display:none;
 }

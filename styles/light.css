@@ -17,7 +17,7 @@
   --header-color: #FFC2E6;
   --text-size-m: 18px;
   --background-image: url(../images//cover-image-light.png);
-  --hover: #FF007066;
+  --hover: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {

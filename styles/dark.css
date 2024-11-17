@@ -17,7 +17,7 @@
   --header-color: #DB00FF;
   --text-size-m: 18px;
   --background-image: url(../images/cover-image-dark.png);
-  --hover: #32312D66;
+  --hover: rgba(255, 0, 112, 0.4)
 }
 
 .theme_auto .head-decor {

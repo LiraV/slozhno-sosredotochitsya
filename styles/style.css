@@ -107,11 +107,11 @@
   text-transform: lowercase;
   color: var(--header-color);
   text-shadow: 4px 4px 0 var(--highlight-color);
-  font-size: clamp(7.25rem, 6.9611rem + 1.2327vw, 7.75rem);
+  font-size: clamp(0.875rem, 0.5172rem + 1.5267vw, 1.25rem);
+  font-size: 116px;
   grid-column-start: 1;
   grid-column-end: span 2;
   margin-top: 65px;
-  font-size: 116px;
   line-height: 83%;
 }
 

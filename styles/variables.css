@@ -12,5 +12,7 @@
   --header-color: #DB00FF;
   --text-size-m: 18px;
   --background-image: url(../images/cover-image-dark.png);
-  --hover: rgba(255, 0, 112, 0.4)
+  --hover: rgba(255, 0, 112, 0.4);
+  --text-std-weight: 400;
+  --text-std-font: 'IBM Plex mono';
 }

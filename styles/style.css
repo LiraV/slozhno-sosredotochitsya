@@ -12,12 +12,13 @@
 
 .header {
   display: grid;
-  margin-top: 10px;
+  padding-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
   grid-template-columns: repeat(2, 1fr);
-  height: max((100vh - 20px), 648px);
+  height: max(100vh, 668px);
 }
 
 .head-decor {
@@ -174,7 +175,7 @@
   gap: 10px;
 }
 
-article:not(:last-child) .content__article__text:not(:last-child) {
+.content__article__text:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -211,13 +212,14 @@ article:not(:last-child) .content__article__text:not(:last-child) {
 
 .footer {
   display: grid;
-  margin-top: 50px;
+  margin-top: 40px;
+  padding-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  margin-bottom: 10px;
-  height: max(calc(100vh - 20px), 648px);
+  padding-bottom: 10px;
+  height: max(100vh, 668px);
 }
 
 .subtitle {
@@ -236,9 +238,11 @@ article:not(:last-child) .content__article__text:not(:last-child) {
 
 @media (width >= 768px) {
   .header {
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
-    height: max(calc(100vh - 20px), 768px);
+    height: max(100vh, 124px);
   }
 
   .decorated-zone::before {
@@ -278,14 +282,14 @@ article:not(:last-child) .content__article__text:not(:last-child) {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 60px;
-    margin-bottom: 79px;
+    margin-bottom: 59px;
   }
 
   .content__article {
     margin-top: 0px;
   }
 
-  article:not(:last-child) .content__article__text:not(:last-child) {
+  .content__article__text:not(:last-child) {
     margin-bottom: 20px;
   }
 
@@ -370,11 +374,12 @@ article:not(:last-child) .content__article__text:not(:last-child) {
   }
 
   .footer {
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    margin-bottom: 20px;
-    height: max(calc(100vh - 40px), 984px);
+    padding-bottom: 20px;
+    height: max(100vh, 124px);
   }
 
   .subtitle {
@@ -386,7 +391,7 @@ article:not(:last-child) .content__article__text:not(:last-child) {
 @media (width >= 1024px) {
 
   .header {
-    height: max(calc(100vh - 20px), 728px);
+    height: max(100vh, 768px);
   }
 
   .header__theme-menu {
@@ -447,8 +452,7 @@ article:not(:last-child) .content__article__text:not(:last-child) {
   }
 
   .footer {
-    height: max(calc(100vh - 40px), 728px);
-    padding-bottom: 0px;
+    height: max(100vh, 768px);
   }
 
   .subtitle {

@@ -11,10 +11,10 @@
   */
   --text-color: #353430;
   --accent-color: #353430;
-  --background-color: #FFF1F7;
-  --highlight-color: #FF8DCB;
+  --background-color: #fff1f7;
+  --highlight-color: #ff8dcb;
   --title-color: #353430;
-  --header-color: #FFC2E6;
+  --header-color: #ffc2e6;
   --text-size-m: 18px;
   --background-image: url(../images//cover-image-light.png);
   --hover: rgba(50, 49, 45, 0.4);
@@ -24,36 +24,36 @@
   :root {
     --text-color: #353430;
     --accent-color: #353430;
-    --background-color: #FFF1F7;
-    --highlight-color: #FF8DCB;
+    --background-color: #fff1f7;
+    --highlight-color: #ff8dcb;
     --title-color: #353430;
-    --header-color: #FFC2E6;
+    --header-color: #ffc2e6;
     --text-size-m: 18px;
     --background-image: url(../images//cover-image-light.png);
     --hover: rgba(50, 49, 45, 0.4);
   }
 
   .theme_auto .head-decor {
-    display:none;
+    display: none;
   }
-  
+
   .theme_auto .head-decor::after {
-    display:none;
+    display: none;
   }
-  
+
   .theme_auto .head-decor::before {
-    display:none;
+    display: none;
   }
 }
 
 .theme_light .head-decor {
-  display:none;
+  display: none;
 }
 
 .theme_light .head-decor::after {
-  display:none;
+  display: none;
 }
 
 .theme_light .head-decor::before {
-  display:none;
+  display: none;
 }

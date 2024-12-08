@@ -107,8 +107,7 @@
   text-transform: lowercase;
   color: var(--header-color);
   text-shadow: 4px 4px 0 var(--highlight-color);
-  font-size: clamp(0.875rem, 0.5172rem + 1.5267vw, 1.25rem);
-  font-size: 116px;
+  font-size: clamp(6rem, 116px, 7.25rem);
   grid-column-start: 1;
   grid-column-end: span 2;
   margin-top: 65px;
